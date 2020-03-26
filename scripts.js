@@ -1,0 +1,11 @@
+const menu = document.getElementById('menu');
+const nav = document.getElementById('nav');
+const exit = document.getElementById('exit');
+
+menu.addEventListener('click', (e) => {
+    nav.classList.toggle('hide-mobile');
+},false);
+
+exit.addEventListener('click', (e) =>{
+    nav.classList.toggle('hide-mobile');
+}, false)
